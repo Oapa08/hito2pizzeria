@@ -1,0 +1,64 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(212, 212, 212);
+    padding-bottom: 8px;
+}
+.foto{
+    width: 300px;
+    height: auto;
+    padding-bottom: 8px;
+}
+.name_pizza{
+    display: flex;
+    padding-left: 8px;
+}
+.box_ingredientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tex_sub_ing{
+    font-size: small;
+}
+.text_ingredientes{
+    font-size: x-small;
+}
+.box_precio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,.box2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 3px;
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
